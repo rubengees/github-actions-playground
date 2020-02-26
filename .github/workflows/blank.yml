@@ -24,4 +24,4 @@ jobs:
       - name: Hello release
         run: echo "Hello Release!"
       - name: Print Context
-        run: echo "${{ github.event.tag_name }}"
+        run: echo "${{ github.event.release.tag_name }}"
