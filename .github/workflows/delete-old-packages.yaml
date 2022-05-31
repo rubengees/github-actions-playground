@@ -11,4 +11,4 @@ jobs:
     - uses: SmartsquareGmbH/delete-old-packages@next
       with:
         names: test
-        keep: 2
+        keep: 1
