@@ -8,8 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: SmartsquareGmbH/delete-old-packages@master
+    - uses: SmartsquareGmbH/delete-old-packages@next
       with:
-        dry-run: true
-        version: "1.0.0"
         names: test
+        keep: 2
