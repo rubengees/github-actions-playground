@@ -1,0 +1,10 @@
+{
+  "name": "@rubengees/npm-test",
+  "version": "2.0.0",
+  "description": "Test package for npm.pkg.github.com",
+  "main": "index.js",
+  "files": ["index.js", "package.json"],
+  "repository": "https://github.com/rubengees/github-actions-playground.git",
+  "author": "Ruben Gees <rubengees7@gmail.com>",
+  "license": "MIT"
+}
